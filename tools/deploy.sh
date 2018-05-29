@@ -5,10 +5,10 @@ set -eu -o pipefail
 declare -A PROJECT_ID
 
 #Firebase project Ids
-PROJECT_ID["stable", "dev"]="material2-docs-dev"
-PROJECT_ID["stable", "prod"]="material-angular-io"
-PROJECT_ID["v5", "dev"]="material2-docs-5"
-PROJECT_ID["v5", "prod"]="v5-material-angular-io"
+PROJECT_ID["stable", "dev"]="materialdesign-4a9fd"
+PROJECT_ID["stable", "prod"]="materialdesign-4a9fd"
+PROJECT_ID["v5", "dev"]="materialdesign-4a9fd"
+PROJECT_ID["v5", "prod"]="materialdesign-4a9fd"
 
 version=${1:-stable}
 mode=${2:-dev}

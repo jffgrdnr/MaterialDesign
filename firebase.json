@@ -1,18 +1,10 @@
 {
   "hosting": {
-    "public": "dist",
-    "cleanUrls": true,
-    "rewrites": [
-      {
-        "source": "/**/!(*.@(js|ts|html|css|json|svg|png|jpg|jpeg))",
-        "destination": "/index.html"
-      }
-    ],
+    "public": "public",
     "ignore": [
       "firebase.json",
-      "**/node_modules/**",
-      "tmp",
-      "deploy"
+      "**/.*",
+      "**/node_modules/**"
     ]
   }
 }

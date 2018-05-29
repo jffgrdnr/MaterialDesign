@@ -1,1 +1,5 @@
-{}
+{
+  "projects": {
+    "default": "materialdesign-4a9fd"
+  }
+}
