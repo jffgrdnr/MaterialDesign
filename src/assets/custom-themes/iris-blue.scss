@@ -2,7 +2,7 @@
 
 // Define the light theme.
 $primary: mat-palette($iris-blue);
-$accent:  mat-palette($mat-amber, A200, A100, A400);
+$accent:  mat-palette($cadence-grey, A200, A100, A400);
 
 $theme: mat-light-theme($primary, $accent);
 @include angular-material-theme($theme);
