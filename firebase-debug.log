@@ -1,0 +1,27 @@
+[debug] [2018-05-29T20:10:16.212Z] ----------------------------------------------------------------------
+[debug] [2018-05-29T20:10:16.214Z] Command:       /usr/local/bin/node /usr/local/bin/firebase functions:shell
+[debug] [2018-05-29T20:10:16.214Z] CLI Version:   3.18.5
+[debug] [2018-05-29T20:10:16.214Z] Platform:      darwin
+[debug] [2018-05-29T20:10:16.214Z] Node Version:  v10.2.1
+[debug] [2018-05-29T20:10:16.215Z] Time:          Tue May 29 2018 14:10:16 GMT-0600 (MDT)
+[debug] [2018-05-29T20:10:16.215Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-29T20:10:16.226Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-29T20:10:16.226Z] > authorizing via signed-in user
+[debug] [2018-05-29T20:10:16.231Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/materialdesign-4a9fd  
+  
+ Tue May 29 2018 14:10:16 GMT-0600 (MDT)
+[debug] [2018-05-29T20:10:16.682Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-29T20:10:16.683Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/materialdesign-4a9fd/tokens  
+  
+ Tue May 29 2018 14:10:16 GMT-0600 (MDT)
+[debug] [2018-05-29T20:10:17.157Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-29T20:10:17.380Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received type undefined
+    at assertPath (path.js:39:11)
+    at Object.join (path.js:1157:7)
+    at FunctionsEmulator.start (/usr/local/lib/node_modules/firebase-tools/lib/functionsEmulator.js:95:27)
+    at Command.module.exports [as _action] (/usr/local/lib/node_modules/firebase-tools/lib/functionsShellCommandAction.js:18:6)
+    at /usr/local/lib/node_modules/firebase-tools/lib/command.js:200:29
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
